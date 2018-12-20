@@ -1,6 +1,6 @@
 # Unix-Cheatsheet
 
-## Setting Proxy
+# Setting Proxy
 
 First of all,
 
@@ -68,15 +68,31 @@ export https_proxy=https://172.16.20.20:8080/ <br>
 export http_proxy="http://172.16.20.20:8080/" <br>
 export https_proxy="https://172.16.20.20:8080/" <br>
 
+# Installation and Extraction of Packages
+
+sudo dpkg -i DEB_PACKAGE
+sudo apt-get install -f
+tar -zxvf file.tar.gz
 
 
 
+# Setting path in java:
+
+
+gedit ~/.bashrc
+
+JAVA_HOME=/opt/jdk-9.0.1/bin
+export JAVA_HOME 
+PATH=$PATH:$JAVA_HOME 
+export PATH
 
 
 
-<br><br><br>
-Referred From:
-1. https://askubuntu.com/questions/257290/configure-proxy-for-apt <br>
-2. https://medium.com/@krish.raghuram/setting-up-proxy-in-ubuntu-95058da0b2d4 <br>
+# Version Check and Update
 
+### Version Check
+$ lsb_release -a
 
+### Update
+$ sudo apt install update-manager-core
+$ sudo do-release-upgrade
