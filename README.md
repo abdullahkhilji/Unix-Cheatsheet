@@ -41,32 +41,32 @@ export https_proxy="https://USERNAME:PASSWORD@SERVER:PORT/" <br>
 
 Example especially for NIT Silchar LAN User's, thanks to CCC :D
 
-SERVER: 172.16.20.20
+SERVER: 172.16.30.20
 PORT: 8080
 
 #### Add the following lines to _~/.bashrc_
 
 
-export http_proxy=http://172.16.20.20:8080/ <br>
-export https_proxy=https://172.16.20.20:8080/ <br>
+export http_proxy=http://172.16.30.20:8080/ <br>
+export https_proxy=https://172.16.30.20:8080/ <br>
   
 #### Add the following lines to _/etc/apt/apt.conf_
 
 
-Acquire::http::Proxy "http://172.16.20.20:8080"; <br>
-Acquire::https::Proxy "https://172.16.20.20:8080"; <br>
+Acquire::http::Proxy "http://172.16.30.20:8080"; <br>
+Acquire::https::Proxy "https://172.16.30.20:8080"; <br>
 
 #### Add the following lines to _/etc/bash.bashrc_
 
 
-export http_proxy=http://172.16.20.20:8080/ <br>
-export https_proxy=https://172.16.20.20:8080/ <br>
+export http_proxy=http://172.16.30.20:8080/ <br>
+export https_proxy=https://172.16.30.20:8080/ <br>
 
 #### Add the following lines to _/etc/environment_
 
 
-export http_proxy="http://172.16.20.20:8080/" <br>
-export https_proxy="https://172.16.20.20:8080/" <br>
+export http_proxy="http://172.16.30.20:8080/" <br>
+export https_proxy="https://172.16.30.20:8080/" <br>
 
 # Installation and Extraction of Packages
 
