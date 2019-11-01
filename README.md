@@ -98,4 +98,4 @@ $ sudo apt install update-manager-core
 $ sudo do-release-upgrade
 
 ### Update Key Ubuntu Repositories
-$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <KEY>
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY-HERE
