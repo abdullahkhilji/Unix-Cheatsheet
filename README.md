@@ -99,3 +99,6 @@ $ sudo do-release-upgrade
 
 ### Update Key Ubuntu Repositories
 $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY-HERE
+
+
+sudo apt-key adv --keyserver-options http-proxy=http://USER:PASSWORD@PROXY_URL:PORT/ --keyserver keyserver.ubuntu.com --recv-keys GPG_KEY
