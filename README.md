@@ -114,3 +114,8 @@ $ sudo ubuntu-drivers autoinstall
 
 ### Do CUDA network install
 
+
+# RSync
+
+$ rsync -a --numeric-ids --delete -d --progress -e "ssh -T"
+
