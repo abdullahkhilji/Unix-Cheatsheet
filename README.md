@@ -102,3 +102,15 @@ $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY-HERE
 
 
 $ sudo apt-key adv --keyserver-options http-proxy=http://USER:PASSWORD@PROXY_URL:PORT/ --keyserver keyserver.ubuntu.com --recv-keys GPG_KEY
+
+# Set up GPU for Machine Learning
+
+### At every step update and upgrade using
+$ sudo apt update
+$ sudo apt upgrade
+
+
+$ sudo ubuntu-drivers autoinstall
+
+### Do CUDA network install
+
