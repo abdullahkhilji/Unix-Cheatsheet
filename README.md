@@ -106,13 +106,17 @@ $ sudo apt-key adv --keyserver-options http-proxy=http://USER:PASSWORD@PROXY_URL
 # Set up GPU for Machine Learning
 
 ### At every step update and upgrade using
+```
 $ sudo apt update
 $ sudo apt upgrade
 
 
 $ sudo ubuntu-drivers autoinstall
 
-### Do CUDA network install
+Do CUDA network install by visiting CUDA Install Website,
+then for installing nvcc do
+$ sudo apt install nvidia-cuda-toolkit
+```
 
 
 # RSync
