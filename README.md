@@ -119,3 +119,9 @@ $ sudo ubuntu-drivers autoinstall
 
 $ rsync -a --numeric-ids --delete -d --progress -e "ssh -T"
 
+# Create a sudo user
+
+```
+# adduser username
+# usermod -aG sudo username
+```
