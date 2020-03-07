@@ -102,6 +102,7 @@ $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY-HERE
 
 
 $ sudo apt-key adv --keyserver-options http-proxy=http://USER:PASSWORD@PROXY_URL:PORT/ --keyserver keyserver.ubuntu.com --recv-keys GPG_KEY
+$ sudo apt-key adv --keyserver-options http-proxy=http://172.16.199.20:8080 --keyserver keyserver.ubuntu.com --recv-keys GPG_KEY
 
 # Set up GPU for Machine Learning
 
