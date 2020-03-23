@@ -116,8 +116,6 @@ $ sudo apt upgrade
 $ sudo ubuntu-drivers autoinstall
 
 Do CUDA network install by visiting CUDA Install Website,
-then for installing nvcc do
-$ sudo apt install nvidia-cuda-toolkit
 ```
 
 
