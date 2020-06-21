@@ -135,3 +135,8 @@ $ rsync -a --numeric-ids --delete -d --progress -e "ssh -T"
 # adduser username
 # usermod -aG sudo username
 ```
+
+# Write terminal output to file
+```
+any_command 2>&1 | tee output_001.txt
+```
