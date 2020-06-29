@@ -140,3 +140,22 @@ $ rsync -a --numeric-ids --delete -d --progress -e "ssh -T"
 ```
 any_command 2>&1 | tee output_001.txt
 ```
+
+# C++ build for UNIX based systems
+
+```
+{
+	"shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\"",
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	"working_dir": "${file_path}",
+	"selector": "source.c++",
+
+	"variants":
+	[
+		{
+			"name": "Run",
+			"shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\" < cases.in > cases.out"
+		}
+	]
+}
+```
