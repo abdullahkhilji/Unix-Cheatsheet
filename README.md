@@ -40,6 +40,7 @@ export https_proxy="https://USERNAME:PASSWORD@SERVER:PORT/" <br>
 ### If Ony Server and Port Given
 
 Example especially for NIT Silchar LAN User's, thanks to CCC :D
+If you feel the process is too lengthy, I would better recommend to use Ubuntu 16.04 the most stable Ubuntu Release ever Will be happy if someone proves me wrong here :)
 
 SERVER: 172.16.199.20
 PORT: 8080
