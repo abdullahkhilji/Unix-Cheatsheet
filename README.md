@@ -1,5 +1,5 @@
 # Unix-Cheatsheet
-
+[![GitHub](https://img.shields.io/github/license/abdullahkhilji/Unix-Cheatsheet)](https://github.com/abdullahkhilji/Unix-Cheatsheet/blob/master/LICENSE)
 # Setting Proxy
 
 First of all,
