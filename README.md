@@ -177,4 +177,6 @@ any_command 2>&1 | tee output_001.txt
 # Miscellaneous
 ```
 for f in *.txt; do (cat "${f}"; printf "\n\n") >> finalfile.txt; done
+xzcat -v $language.*.raw.xz | ~/GitHub/preprocess/build/bin/commoncrawl_dedupe /dev/null |xz > $language.deduped.xz
+
 ```
