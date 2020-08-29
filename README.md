@@ -173,3 +173,8 @@ any_command 2>&1 | tee output_001.txt
 	]
 }
 ```
+
+# Miscellaneous
+```
+for f in *.txt; do (cat "${f}"; printf "\n\n") >> finalfile.txt; done
+```
